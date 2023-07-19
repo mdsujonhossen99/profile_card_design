@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -12,70 +10,63 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 a {
   text-decoration: none;
 }
 .wrapper {
-	width: 300px;
-	padding: 23px;
-	background-color: #EEEFF3;
-	box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
-	border-radius: 6px;
+  width: 300px;
+  padding: 23px;
+  background-color: #eeeff3;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
+  border-radius: 6px;
 }
 .back_menu_wrap {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 11px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 11px;
 }
 .back_menu_wrap a {
-    color: black;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    box-shadow: -3px -3px 7px transparent, 3px 3px 3px transparent;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    transition: all ease-in-out 0.3s;
+  color: black;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  box-shadow: -3px -3px 7px transparent, 3px 3px 3px transparent;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  transition: all ease-in-out 0.3s;
 }
 .back_menu_wrap a:hover {
-
-    box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
-    
-
+  box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
 }
-
 
 .profile_pic_wrap {
-
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 .back_menu_wrap a:hover {
-
 }
 .profile_bg {
-    box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .profile_bg img {
-	object-fit: cover;
-	width: 80%;
-	height: 80%;
-	border-radius: 50%;
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
 }
 
 .name {
-	text-align: center;
-	margin: 15px 0;
+  text-align: center;
+  margin: 15px 0 5px 0;
 }
 .profesion {
   text-align: center;
@@ -123,7 +114,7 @@ a {
   transition: all ease-in-out 0.3s;
 }
 .social_links ul li a:hover {
-    box-shadow: -3px 8px 7px #fff, -4px -3px 9px #ceced1;
+  box-shadow: -3px 8px 7px #fff, -4px -3px 9px #ceced1;
 }
 .buttons {
   margin-bottom: 11px;
@@ -132,21 +123,21 @@ a {
   gap: 25px;
 }
 .buttons button {
-    padding: 12px 16px;
+  padding: 12px 16px;
 }
 .reactions {
   display: flex;
   justify-content: space-between;
 }
 .buttons .btn {
-	border: none;
-	box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
-	border-radius: 5px;
-	font-size: 0.9rem;
-    cursor: pointer;
-    transition: all ease-in-out 0.3s;
+  border: none;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 3px #ceced1;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
 }
 .buttons .btn:hover {
-    box-shadow: -3px 8px 7px #fff, -4px -3px 9px #ceced1;
-    background-color: transparent;
+  box-shadow: -3px 8px 7px #fff, -4px -3px 9px #ceced1;
+  background-color: transparent;
 }
